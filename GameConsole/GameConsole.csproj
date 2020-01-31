@@ -45,8 +45,7 @@
   <ItemGroup>
     <Compile Include="DiamondSkinDefence.cs" />
     <Compile Include="IronBonesDefence.cs" />
-    <Compile Include="ISpecialDefence.cs" />
-    <Compile Include="NullDefence.cs" />
+    <Compile Include="SpecialDefence.cs" />
     <Compile Include="PlayerCharacter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
