@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsole", "GameConsole\GameConsole.csproj", "{064048CD-05BC-43E6-A8F7-DF9B76C0DE3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS8NullBasics", "CS8NullBasics\CS8NullBasics.csproj", "{80586D13-6EA6-4A1E-BF7D-8FE3E498BF9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS8NullBasics", "CS8NullBasics\CS8NullBasics.csproj", "{80586D13-6EA6-4A1E-BF7D-8FE3E498BF9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsoleCore", "GameConsoleCore\GameConsoleCore.csproj", "{19B1C364-770D-42C5-BC9E-3680491908FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{80586D13-6EA6-4A1E-BF7D-8FE3E498BF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80586D13-6EA6-4A1E-BF7D-8FE3E498BF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80586D13-6EA6-4A1E-BF7D-8FE3E498BF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B1C364-770D-42C5-BC9E-3680491908FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B1C364-770D-42C5-BC9E-3680491908FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B1C364-770D-42C5-BC9E-3680491908FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B1C364-770D-42C5-BC9E-3680491908FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
