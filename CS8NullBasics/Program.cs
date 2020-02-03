@@ -15,6 +15,7 @@ namespace CS8NullBasics {
             Console.WriteLine(message.From);
             Console.WriteLine(message.From!.Length); // null-forgiving operator
             // only has effect on compiler. If we pass a null value, it will still throw exception at runtime
+            // use with great care and only when absolutely necessary. May be useful for tests
             Console.WriteLine(message.ToUpperFrom());
 
             Console.ReadLine();
