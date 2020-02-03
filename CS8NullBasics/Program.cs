@@ -4,9 +4,14 @@ namespace CS8NullBasics {
     class Program {
         static void Main(string[] args) {
 
-            string message = null;
+            Message message = new Message { 
+            Text="Hello there!",
+            From = null
+            };
 
-            Console.WriteLine(message);
+            Console.WriteLine(message.Text);
+            Console.WriteLine(message.From);
+            Console.WriteLine(message.ToUpperFrom());
 
             Console.ReadLine();
 
