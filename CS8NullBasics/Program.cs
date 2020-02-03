@@ -9,8 +9,12 @@ namespace CS8NullBasics {
             From = null
             };
 
+            MessagePopulator.Populate(message);
+
             Console.WriteLine(message.Text);
-            Console.WriteLine(message.From ?? "no from");
+            Console.WriteLine(message.From);
+            Console.WriteLine(message.From!.Length); // null-forgiving operator
+            // only has effect on compiler. If we pass a null value, it will still throw exception at runtime
             Console.WriteLine(message.ToUpperFrom());
 
             Console.ReadLine();
